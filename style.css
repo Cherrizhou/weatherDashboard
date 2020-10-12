@@ -1,0 +1,81 @@
+h1 {
+    background-color: slategray;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.card {
+    padding: 20px;
+    background-color:#0C6E99;
+    color: white;
+    height: 220px;
+   
+}
+
+#title {
+    padding-left: 20px;
+    padding-bottom: 0;
+}
+
+.cityTitle{
+padding-bottom: 0;
+}
+
+#today {
+    padding-left:20px;
+    border: 2px solid red;
+}
+
+.searchBox {
+    margin-left:0.5%;
+}
+
+.col-md-2 {
+    border: 1px solid #eee;
+    color: #708090;
+}
+
+h4 {
+    padding-bottom: 30px;
+}
+
+.date {
+font-size: 1.2rem;
+}
+
+.green {
+    background-color: green;
+    width: 108px;
+    color: white;
+}
+
+.yellow {
+    background-color: yellow;
+    width: 120px;
+}
+
+.orange {
+    background-color: orange;
+    width: 120px;
+}
+
+.red {
+    background-color: red;
+    color: white;
+    width: 120px;
+}
+
+.purple {
+    background-color: purple;
+    color: white;
+    width: 120px;
+}
+
+.icon {
+    width: 65px;
+}
+
+.iconS {
+    width: 65px;
+}
