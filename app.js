@@ -25,11 +25,11 @@ var uvData = function (uvNumber) {
 
     if (parseFloat(uvNumber.value) < 3) {
         uvDiv.addClass("green");
-    } else if (3 <= parseFloat(uvNumber.value) < 5) {
+    } else if (parseFloat(uvNumber.value) >= 3 && parseFloat(uvNumber.value) < 5) {
         uvDiv.addClass("yellow");
-    } else if (5 <= parseFloat(uvNumber.value) < 7) {
+    } else if (parseFloat(uvNumber.value) >= 5 && parseFloat(uvNumber.value) < 7) {
         uvDiv.addClass("orange");
-    } else if (7 <= parseFloat(uvNumber.value) < 10) {
+    } else if (parseFloat(uvNumber.value) >= 7 && parseFloat(uvNumber.value) < 10) {
         uvDiv.addClass("red");
     } else if (parseFloat(uvNumber.value) >= 10) {
         uvDiv.addClass("purple");
